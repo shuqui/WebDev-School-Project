@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+body {
+    font-family: 'HK Grotesk';
+}
+/* navigation */
+.navbar {
+    padding: 18px 28px;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.navbar-collapse .navbar-nav li {
+    padding: 0px 8px;
+}
+.nav-item img {
+    cursor: pointer;
+    opacity: 0.4;
+}
+.nav-item:hover img {
+    opacity: 0.7;
+}
+
+/* bg-carousel */
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background: no-repeat center center scroll;
+}
+.carousel-caption {
+    color: black;
+    bottom: 200px;
+}
+.carousel-caption h1{
+    font-size: 45px;
+    padding: 12px 0px;
+}
+.carousel-caption p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    padding: 8px 20px;
+    margin: 5px 0;
+}
+
+/* top categories */
+.title {
+    text-align: center;
+    margin: 90px 0px;
+    padding: 20px 0px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+.col-md img{
+    width: 238px;
+    height: 238px;
+}
+.inner {
+    overflow: hidden;
+}
+.inner img {
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+.item p {
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+/* collection */
+.collection {
+    background: #161618;
+}
+.collection .title {
+    padding-top: 100px;
+}
+.card {
+    cursor: pointer;
+}
+
+/* featured product */
+.featured-product .row img {
+    width: 100%;
+    padding: 16px 0px;
+}
+.featured-product .col-md:hover img {
+    transform: scaleX(-1);
+    opacity: 0.5;
+}
+.col-md h5{
+    font-weight: 500;
+    font-size: 19px;
+}
+.fa {
+    color: orange;
+}
+.col-md p {
+    font-weight: 600;
+}
+/* shop-by-style */
+.col-sm img{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+}
+.shop-by-style .text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.overlay {
+    overflow: hidden;
+}
+.overlay img,h2 { 
+    transition: all 1.5s ease;
+}
+.overlay:hover img {
+    transform: scale(1.3);
+}
+.overlay:hover h2 {
+    transform: translateY(-50px);
+}

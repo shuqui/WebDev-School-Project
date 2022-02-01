@@ -1,0 +1,92 @@
+body 
+{
+    font-family: 'HK Grotesk';
+}
+
+.modal-content 
+{
+    display: hidden;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+.close 
+{
+    position: absolute;
+    right: 25px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.modal-content p 
+{
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+}
+.modal-content .login 
+{
+    display: block;
+    margin: 15px auto;
+    width: 360px;
+    height: 50px;
+}
+.remember-me-forgot-pass .remember-me 
+{
+    margin-left: 56px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+.forgot-pass a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+::placeholder 
+{
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+::-ms-input-placeholder 
+{ /* Microsoft Edge */
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+input[type=text] 
+{
+    padding: 18px;
+    border: 1px solid #A7A6BA;
+    outline: none;
+}
+input[type=password] 
+{
+    padding: 18px;
+    border: 1px solid #A7A6BA;
+    outline: none;
+}
+.modal-content .btn 
+{
+    display: block;
+    margin: 10px auto;
+    width: 360px;
+    height: 56px;
+    font-size: 15px;
+}
+#btn-signup 
+{
+    background-color: #636363;
+}
+#btn-signup:hover 
+{
+    opacity: 0.8;
+}
+#register 
+{
+    display: none;
+    visibility: hidden;
+}
